@@ -1,40 +1,56 @@
-# Agent Skills
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/openai/skills/main/assets/hero-image.png" width="100%" alt="Agent Skills Banner"/>
+  <br>
+  🚀 Agent Skills: The Ultimate Plugin System for AI
+  <br>
+  <sub><i>Write Once. Use Everywhere. Supercharge Your AI Agents.</i></sub>
+</h1>
 
-Agent Skills are folders of instructions, scripts, and resources that AI agents can discover and use to perform at specific tasks. Write once, use everywhere.
+<p align="center">
+  <a href="https://github.com/drako050505/skills/stargazers">
+    <img src="https://img.shields.io/github/stars/drako050505/skills?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+  </a>
+  <a href="https://github.com/drako050505/skills/network/members">
+    <img src="https://img.shields.io/github/forks/drako050505/skills?style=for-the-badge&logo=github&color=blue" alt="Forks">
+  </a>
+  <a href="https://github.com/drako050505/skills/issues">
+    <img src="https://img.shields.io/github/issues/drako050505/skills?style=for-the-badge" alt="Issues">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+</p>
 
-Codex uses skills to help package capabilities that teams and individuals can use to complete specific tasks in a repeatable way. This repository catalogs skills for use and distribution with Codex.
+<p align="center">
+  <b>🔥 TRENDING:</b> <img src="https://img.shields.io/github/stars/drako050505/skills?label=Stars%20Today&style=flat-square&color=ff69b4" alt="Stars Today"> 
+  <br>
+  <i>The missing modular framework for OpenAI Codex and Autonomous Agents.</i>
+</p>
 
-Learn more:
-- [Using skills in Codex](https://developers.openai.com/codex/skills)
-- [Create custom skills in Codex](https://developers.openai.com/codex/skills/create-skill)
-- [Agent Skills open standard](https://agentskills.io)
+---
 
-## Installing a skill
+## 🌌 The Problem: AI Agents Are Dumb (Until Now)
 
-Skills in [`.system`](skills/.system/) are automatically installed in the latest version of Codex.
+You have a powerful AI, but it lacks **specific context**. It forgets protocols. It hallucinates workflows.
 
-To install [curated](skills/.curated/) or [experimental](skills/.experimental/) skills, you can use the `$skill-installer` inside Codex.
+**Agent Skills** changes the game. It is a standardized, open-source library of folders containing instructions, scripts, and resources that your AI can dynamically discover and utilize. 
 
-Curated skills can be installed by name (defaults to `skills/.curated`):
+> **Stop prompting. Start installing skills.**
 
-```
-$skill-installer gh-address-comments
-```
+---
 
-For experimental skills, specify the skill folder. For example:
+## ⚡ Why This Fork? (VS Code Integration)
 
-```
-$skill-installer install the create-plan skill from the .experimental folder
-```
+Why should you star **this** specific repository?
 
-Or provide the GitHub directory URL:
+While the original repository is fantastic, this fork by **[drako050505](https://github.com/drako050505)** focuses on **Developer Experience (DX)** and **VS Code Integration**.
 
-```
-$skill-installer install https://github.com/openai/skills/tree/main/skills/.experimental/create-plan
-```
+| Feature | Original Repo | 👑 This Fork (drako050505) |
+| :--- | :---: | :---: |
+| **Core Skills Library** | ✅ | ✅ |
+| **Experimental Skills** | ✅ | ✅ |
+| **VS Code Integration** | ❌ | ✅ **Optimized** |
+| **Dev Container Ready** | ❌ | ✅ **Ready-to-Code** |
+| **Local Pathing** | Manual | ✅ **Auto-Detected** |
 
-After installing a skill, restart Codex to pick up new skills.
-
-## License
-
-The license of an individual skill can be found directly inside the skill's directory inside the `LICENSE.txt` file.
+**Enhancements included:**
+1.  **VS Code Tasks:** Pre-configured tasks
